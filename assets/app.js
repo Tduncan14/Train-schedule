@@ -1,12 +1,13 @@
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyCYkK09jL1mtsfaVCCM-p1QI9CVHx89tNo",
-    authDomain: "fridgeforager-40b0c.firebaseapp.com",
-    databaseURL: "https://fridgeforager-40b0c.firebaseio.com",
-    projectId: "fridgeforager-40b0c",
-    storageBucket: "fridgeforager-40b0c.appspot.com",
-    messagingSenderId: "709178750655"
+    apiKey: "AIzaSyDMg8DMr0lS5rAWzRkDLPCioUzMzLtHf2w",
+    authDomain: "fire-train-schedu.firebaseapp.com",
+    databaseURL: "https://fire-train-schedu.firebaseio.com",
+    projectId: "fire-train-schedu",
+    storageBucket: "",
+    messagingSenderId: "869528595786"
   };
+
  
 firebase.initializeApp(config);
 

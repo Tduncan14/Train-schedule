@@ -10,13 +10,13 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
 </head>
 
 <body>
     <div class='container'>
         <div class='row'>
-            <div class='card-panel z-depth-2 orange accent-3 white-text'>
+            <div class='card-panel z-depth-2 blue accent-3 white-text'>
                 <h3 class='center-align'>Train Schedule</h3></div>
         </div>
         <div class='row'>
@@ -53,13 +53,13 @@
                     </div>
                     <div class="input-field col s12">
                         <input type="time" class="validate" id="firstInput">
-                        <label class='active' for="">First Train (HH:mm Military Time)</label>
+                        <label class='active' for="">First Train (HH:mm)</label>
                     </div>
                     <div class="input-field col s12">
                         <input type="number" class="validate" id="frequencyInput">
                         <label for="">Frequency (minutes)</label>
                     </div>
-                    <button type="submit" class="btn orange accent-3" id="addTrainBtn">Submit</button>
+                    <button type="submit" class="btn blue accent-1" id="addTrainBtn">Submit</button>
                 </form>
             </div>
         </div>
